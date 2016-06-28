@@ -1,6 +1,8 @@
-<form action="/tasks" method="post">
-  <p>Enter a new task:</p>
-  <input type='text' name='task[title]'/><br/>
-  <textarea name='task[description]'></textarea><br/>
-  <input type='submit'/>
+<form class ="jumbotron" action="/tasks" method="post">
+  <h1 class="well text-center">Enter a new task:</h1>
+  <p>Task Name</p>
+  <input class="form-group" type='text' name='task[title]'/><br/>
+  <p>Task Description</P>
+  <textarea class="form-control" name='task[description]'></textarea><br/>
+  <input class="btn btn-primary" type='submit'/>
 </form>

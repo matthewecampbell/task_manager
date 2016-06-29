@@ -1,4 +1,4 @@
-class Task
+class Skill
   attr_reader :title,
               :description,
               :id

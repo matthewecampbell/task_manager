@@ -1,0 +1,9 @@
+---
+skills:
+- id: 1
+  title: asdfasdf
+  description: asdfasdf
+- id: 2
+  title: asdf
+  description: asdf
+total: 2
